@@ -1,8 +1,8 @@
 const quizForm = document.querySelector(".quiz-form");
 const submitButton = document.querySelector("#submit-quiz");
-const outputEl = document.querySelector("#output-el");
+const output = document.querySelector("#output");
 
-const correctAns = [ "90°", "Right Angled", "60°", "Equal", "Isosceles triangle"]; 
+const correctAns = [ "90°", "Right Angled", "60°", "Equal", "Isosceles triangle", ]; 
 let score = 0;
 
 function calculateScore(){
@@ -18,7 +18,7 @@ function calculateScore(){
         }
         index = index+1;
     }
-    outputEl.innerText = "Your Score is: " +score;
+    output.innerText = "Your Score is: " +score;
     submitButton.disabled = true;
 }
 

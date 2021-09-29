@@ -1,0 +1,101 @@
+body {
+    overflow-x: hidden;
+    font-size: 16px;
+    color: #fff;
+  }
+  nav {
+    background-color: #89a144;
+    padding: 1.5rem;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .item-active {
+    border-bottom: 2px solid;
+    font-weight: 700;
+  }
+  .conatainer {
+    max-width: 100%;
+    margin: auto;
+    padding: 2rem 1rem;
+    height: auto;
+    background-color: #eff1f3;
+  }
+  h1 {
+    text-align: center;
+    margin: 1rem;
+    color: black;
+  }
+  h2{
+    text-align: center;
+    color: black;
+  }
+  h3{
+      text-align: center;
+      color: black;
+  }
+
+  input {
+    width: 97%;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    border: 2px solid #89a144;
+    border-radius: 1rem;
+  }
+  
+  label {
+    display: block;
+    padding: 0.8rem 0;
+    color: black;
+  }
+  button {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem 0;
+    margin: 2rem 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color:#89a144;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+  #output {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+  }
+  .center-container {
+    max-width: 700px;
+    margin: auto;
+  }
+  .questions {
+    padding: 2rem;
+    border: 2px solid #89a144;
+    margin: 1rem 0;
+    border-radius: 5px;
+    color: black;
+  }
+  .questions p {
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+  }
+  .questions label {
+    margin-right: 0.5rem;
+    display: block;
+  }
+  .questions input {
+    width: 10%;
+  }
