@@ -4,8 +4,12 @@ const output = document.querySelector("#output");
 
 
 function calculateSquareSum(a,b){
+    if( a > 0 && b > 0){
     const sumOFnumber = a*a + b*b;
     return sumOFnumber;
+    }else{
+        alert("Enter the value")
+    }
 }
 
 function calculateHypotenus(){
